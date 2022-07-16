@@ -2,7 +2,7 @@
 # CREATE A GITHUB TEAM and CHILD TEAM
 #
 # Create a Github team and child teams
-# Default teams: editemprem-all, devops, developer, operations
+# Default teams: editempremorg, admin, devops, developer, business
 # ---------------------------------------------------------------------------------------------------------------------
 
 resource "github_team" "team" {
