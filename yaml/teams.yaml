@@ -1,0 +1,19 @@
+## Please use 
+## *small letter team name only* 
+## in order to avoid slug to be different than team name.
+
+## There shouldn't be any need to create further teams for org.
+## One must be mapped to either of the nested team at max.
+Teams:
+- OrgTeam:
+    - name: editpremorg
+      description: "This team has all Editprem Github Members"
+- NestedTeam:
+    - name: admin
+      description: "Admin Team for Orgniasation"
+    - name: devops
+      description: "Devops Team to own all Infra"
+    - name: developer
+      description: "All Editprem devloper team"
+    - name: business
+      description: "All Editprem Business team"

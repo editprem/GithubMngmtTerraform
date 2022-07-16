@@ -1,0 +1,17 @@
+# Please add the information as per below:
+# - name: "Name of the new Repository to be created. Prefer using smaller letters."
+#   description: "Desbribe purpose for the repository"
+### Add team slug/name who should have pull request access for the repository.
+### One can refer teams.yaml for the team name/slug
+### ONLY TEAM IS ALLOWED. NO MEMBER ID SHOLUD BE PASSED!!!  
+#   teamSlug:
+#     - developer
+#     - business
+
+Repository:
+   - Private:
+       - name: "testPriRepoA"
+         description: "Demo private repo 1"
+   - Public:
+       - name: "GithubMngmtTerraform"
+         description: "Management of Editprem Org via Terraform"

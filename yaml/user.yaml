@@ -1,0 +1,19 @@
+# 1. If you are admin, Make sure you've ONLY 1 slug/team i.e admin.
+# 2. If you are in developer or devops or business team,
+# add that to the slug as shown below. You can have only one role at a time in the Org.
+# 3. Member will be automatically invited for joining the
+# orgnisation if not present already and added to the respective teams.
+# 4. Remove team member id and slug if person leaves the Org on the LWD.
+
+# Empty User File Example:
+GitHubUser: {}
+
+# Intern Or Third-Party read Access Example:
+# GitHubUser:
+#   - id: "pankajc46"
+#     teamSlug: ""
+
+# Normal Use Case:
+# GitHubUser:
+#   - id: "pankajc46"
+#     teamSlug: "devops"
